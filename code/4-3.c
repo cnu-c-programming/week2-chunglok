@@ -2,7 +2,19 @@
 
 int main()
 {
-
+    int a, i;
+    scanf("%d", &a);
+    for(i = 2; i < a/2; i++){
+        if(a % i == 0){
+            printf("false");
+            break;
+        }
+        else if (i == a/2 - 1){
+            printf("true");
+            break;
+        }
+    }
+    
     return 0;
 }
 
