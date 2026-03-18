@@ -10,7 +10,6 @@ int main()
             printf("%d * %d = %d\n", i, j, a);
         }
     }
-    
     return 0;
 }
 
