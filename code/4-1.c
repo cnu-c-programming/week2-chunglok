@@ -2,13 +2,30 @@
 
 int main()
 {
-    int a = 32;
-    int b = 156;
+    int a,b;
+    char o;
 
-    a ^ b;
+    scanf("%d %d %c", &a, &b, &o);
 
-    printf("%d %d\n", a, b);
-    
+
+    switch (o)
+    {
+    case '+':
+        printf("%d", a + b);
+        break;
+    case '-':
+        printf("%d", a - b);
+        break;
+     case '*':
+        printf("%d", a * b);
+        break;
+     case '/':
+        printf("%d", a / b);
+        break;
+    default:
+        break;
+    }
+
     return 0;
 }
 
