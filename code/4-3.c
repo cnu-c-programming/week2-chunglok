@@ -7,7 +7,7 @@ int main()
     if(a == 1){
         printf("false");
     }
-    else if(a == 2 or a == 3){
+    else if(a == 2 || a == 3){
         printf("true");
     }else{
         for(i = 2; i < a/2; i++){
